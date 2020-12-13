@@ -3,6 +3,7 @@ export class Movie {
     title: string;
     original_language: string;
     overview: string;
-    relase_date: Date;
+    release_date: Date;
+    poster_path: string;
 
 }

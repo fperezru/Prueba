@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Detalle de la película</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-card>
+  <img src= {{image}}>
+  <ion-card-header>
+    <ion-card-subtitle>{{movie.original_language}}</ion-card-subtitle>
+    <ion-card-title>{{movie.title}}</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>{{movie.overview}}</ion-card-content>
+  <ion-card-content>Fecha de estreno: {{movie.release_date}}</ion-card-content>
+</ion-card>

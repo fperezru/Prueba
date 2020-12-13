@@ -19,7 +19,6 @@ export class HomePage {
 
     this.dbConectionService.getMovies().subscribe(data => {
       this.movies = data.results;
-      console.log(this.movies[0].id);
     },
       (error: any) => {
         console.log(error)
